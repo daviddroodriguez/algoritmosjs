@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../img/fondoc.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 100vh;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+
+h1{
+    color: antiquewhite;
+    font-size: 45px;
+}
+
+h2{
+    color: aquamarine;
+    font-size: 35px;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+button{
+    padding: 10px 30px;
+    background: aqua;
+    border: 2px solid blue;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover{
+    background: white;
+    color:black;
+    padding: 15px 50px;
+
+}
